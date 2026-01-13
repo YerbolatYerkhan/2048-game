@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">2048</string>
+    <string name="header">2048</string>
+
+    <string name="new_game">New Game</string>
+    <string name="high_score">HIGH SCORE</string>
+    <string name="score">SCORE</string>
+
+    <string name="instructions">Join the numbers and get to 2048.</string>
+
+    <!-- 🟩 Победа -->
+    <string name="you_win">You Win!</string>
+
+    <!-- 🟥 Проигрыш -->
+    <string name="game_over">Game Over</string>
+    <string name="tap_to_retry">Tap to restart</string>
+
+    <!-- Старые строки, оставляем для безопасности -->
+    <string name="go_on">Tap to Continue</string>
+    <string name="for_now">For now…</string>
+    <string name="endless">Endless Mode</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Ereke2048" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#BBADA0</item>
+        <item name="colorPrimaryDark">#776E65</item>
+        <item name="colorAccent">#EDC22E</item>
+        <item name="android:windowBackground">#FAF8EF</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FAF8EF</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+
+        <item name="windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+
+        <item name="postSplashScreenTheme">@style/Theme.Ereke2048</item>
+    </style>
+
+</resources>

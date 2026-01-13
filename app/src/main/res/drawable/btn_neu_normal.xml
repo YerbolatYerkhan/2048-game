@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Dark Shadow -->
+    <item>
+        <shape>
+            <solid android:color="@color/btn_surface"/>
+            <corners android:radius="22dp"/>
+            <padding android:left="6dp" android:top="6dp" android:right="6dp" android:bottom="6dp"/>
+        </shape>
+    </item>
+
+    <!-- Surface -->
+    <item android:top="-6dp" android:left="-6dp">
+        <shape>
+            <solid android:color="@color/btn_surface"/>
+            <corners android:radius="22dp"/>
+        </shape>
+    </item>
+
+</layer-list>

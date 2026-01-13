@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_dark">#111111</color>
+    <color name="background_light">#F6F1E9</color>
+    <color name="text_white">#F9F6F2</color>
+    <color name="text_black">#776e65</color>
+    <color name="text_brown">#d6cdc4</color>
+    <color name="background">#7E6C20</color>
+    <color name="text_dark_white">#FFFFFF</color>
+    <color name="text_light_black">#776e65</color>
+
+    <!-- GAME -->
+    <color name="my_dark_primary">#000000</color>
+    <color name="game_text_white">#F9F6F2</color>
+    <color name="game_text_black">#776e65</color>
+    <color name="game_text_brown">#d6cdc4</color>
+
+    <color name="background_light_main">#D6CDC4</color>
+
+    <!-- Start screen (LIGHT) -->
+    <color name="start_bg_light">#F3EDE4</color>
+    <color name="title_color_light">#5A4B3C</color>
+
+    <color name="btn_bg_light">#D8C9B6</color>
+    <color name="btn_text_light">#3B3027</color>
+    <color name="my_card_bg">#101010</color>
+
+    <!-- Theme system -->
+    <color name="color_primary_light">#6200EE</color>
+    <color name="color_secondary_light">#03DAC5</color>
+
+
+        <!-- Soft Glass Background -->
+        <color name="glass_bg">#F2EEE9</color>
+
+        <!-- Deep Neumorphism Shadows -->
+        <color name="shadow_dark">#C8C0B8</color>
+        <color name="shadow_light">#FFFFFF</color>
+
+        <!-- Text Colors -->
+        <color name="text_primary">#4A403A</color>
+        <color name="text_secondary">#6C6159</color>
+
+        <!-- Button Colors -->
+        <color name="btn_surface">#F7F3EF</color>
+        <color name="btn_pressed">#E6E0DA</color>
+
+
+
+</resources>

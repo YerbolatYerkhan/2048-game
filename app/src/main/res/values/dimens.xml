@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_gameover">48sp</dimen>
+    <dimen name="text_retry">24sp</dimen>
+
+
+</resources>
