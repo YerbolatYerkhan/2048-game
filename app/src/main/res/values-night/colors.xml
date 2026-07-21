@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_dark">#121212</color>
+    <color name="background_dark_main">#1E1E1E</color>
+    <color name="background_light">#121212</color>
+    <color name="background_light_main">#1E1E1E</color>
+
+    <color name="btn_bg_dark">#333333</color>
+    <color name="btn_bg_light">#333333</color>
+    <color name="start_bg_dark">#2C2C2C</color>
+    <color name="glass_bg">#252525</color>
+
+    <color name="bg_creamy">#FDF8F3</color>
+    <color name="text_brown">#FFFFFF</color>
+    <color name="text_muted">#A69483</color>
+    <color name="accent_yellow">#FFD54F</color>
+
+
+
+    <color name="text_white">#E0E0E0</color>
+    <color name="text_black">#121212</color> <color name="text_dark">#A0A0A0</color>
+    <color name="text_primary">#E0E0E0</color>
+    <color name="text_secondary">#9E9E9E</color>
+
+    <color name="tile_empty">#2A2A2A</color>
+    <color name="tile_2">#3D3D3D</color>
+    <color name="tile_4">#454545</color>
+    <color name="tile_8">#8D5B3E</color>  <color name="tile_16">#964B34</color> <color name="tile_32">#A34131</color> <color name="tile_64">#B03526</color>
+    <color name="tile_128">#C2A84C</color> <color name="tile_256">#C9AF41</color>
+    <color name="tile_512">#D1B636</color>
+    <color name="tile_1024">#D9BD2B</color>
+    <color name="tile_2048">#E0C420</color>
+
+    <color name="tile_4096">#31475E</color>
+    <color name="tile_8192">#28384A</color>
+    <color name="tile_16384">#1F2936</color>
+    <color name="tile_32768">#2E5B7A</color>
+    <color name="tile_65536">#244861</color>
+    <color name="tile_131072">#1A3548</color>
+    <color name="tile_262144">#00ACC1</color> <color name="my_card_bg">#181818</color>
+</resources>

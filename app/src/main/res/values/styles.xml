@@ -36,4 +36,10 @@
         <item name="android:backgroundTint">#F2A154</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
+
+    <style name="GameSwitch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="trackTint">#CDC1B4</item>
+        <item name="thumbTint">#8F7A66</item>
+        <item name="colorControlActivated">#EDC22E</item>
+    </style>
 </resources>

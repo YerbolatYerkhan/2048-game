@@ -22,4 +22,42 @@
     <string name="for_now">For now…</string>
     <string name="endless">Endless Mode</string>
 
+    <string name="privacy_policy_text"><![CDATA[
+    <b>PRIVACY POLICY</b><br><br>
+    This privacy policy applies to the 2048 app (Application) for mobile devices that was created by 2Easy (Service Provider) as an Ad Supported service. This service is intended for use AS IS.<br><br>
+
+    <b>INFORMATION COLLECTION AND USE</b><br><br>
+    The Application collects information when you download and use it. This information may include:<br>
+    - Your device IP address<br>
+    - The pages of the Application that you visit<br>
+    - The time spent on the Application<br>
+    - The operating system you use on your mobile device<br><br>
+
+    The Application does not gather precise information about the location of your mobile device and does not use Artificial Intelligence (AI) technologies to process your data.<br><br>
+
+    <b>THIRD PARTY ACCESS</b><br><br>
+    The Application utilizes third-party services that have their own Privacy Policy:<br>
+    - Google Play Services<br>
+    - AdMob<br>
+    - Google Analytics for Firebase<br>
+    - Firebase Crashlytics<br><br>
+
+    <b>OPT-OUT RIGHTS</b><br><br>
+    You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes available as part of your mobile device.<br><br>
+
+    <b>DATA RETENTION POLICY</b><br><br>
+    The Service Provider will retain User Provided data for as long as you use the Application. If you would like them to delete data, please contact them at <b>ereke.inc@gmail.com</b>.<br><br>
+
+    <b>CHILDREN</b><br><br>
+    The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13. In the case the Service Provider discover that a child under 13 has provided personal information, they will immediately delete this.<br><br>
+
+    <b>SECURITY</b><br><br>
+    The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.<br><br>
+
+    <b>CHANGES</b><br><br>
+    This Privacy Policy may be updated from time to time. You are advised to consult this Privacy Policy regularly for any changes. This policy is effective as of 2026-03-31.<br><br>
+
+    <b>CONTACT US</b><br><br>
+    If you have any questions regarding privacy while using the Application, please contact the Service Provider via email at <b>ereke.inc@gmail.com</b>.
+]]></string>
 </resources>

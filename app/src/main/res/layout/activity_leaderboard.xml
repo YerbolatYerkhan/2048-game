@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000"> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="16dp"
+    android:background="@drawable/bg_leaderboard_card"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="10dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/leaderboardTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@fonts/montserrat_bold"
+            android:text="🏆 RANKINGS"
+            android:textColor="#FFECB3"
+            android:textSize="22sp" />
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bg_close_button"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            app:tint="#FAF8EF"
+            android:padding="8dp"
+            android:scaleType="centerInside" />
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/leaderboardTabs"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/brawl_tabs_parent_bg"
+        app:tabIndicatorHeight="0dp"
+        app:tabRippleColor="@android:color/transparent"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabPaddingStart="0dp"
+        app:tabPaddingEnd="0dp"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/leaderboardPager"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_marginTop="12dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3E2723"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <FrameLayout
+        android:id="@+id/myScoreContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/brawl_item_bg_dark"
+        android:padding="2dp">
+
+        <include layout="@layout/item_leaderboard_user" />
+    </FrameLayout>
+
+</LinearLayout>
+</FrameLayout>

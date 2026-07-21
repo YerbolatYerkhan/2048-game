@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AppInsightsSettings">
+    <option name="selectedTabId" value="Firebase Crashlytics" />
     <option name="tabSettings">
       <map>
         <entry key="Firebase Crashlytics">
@@ -8,10 +9,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.example.ereke2048" />
-                  <option name="mobileSdkAppId" value="1:276912456936:android:e53d6e6e11beb2eeb7755d" />
-                  <option name="projectId" value="ereke2048" />
-                  <option name="projectNumber" value="276912456936" />
+                  <option name="appId" value="com.ereke.qadam2048" />
+                  <option name="mobileSdkAppId" value="1:45292793023:android:33788f88847b2921cfaa0a" />
+                  <option name="projectId" value="first-project-2easy" />
+                  <option name="projectNumber" value="45292793023" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

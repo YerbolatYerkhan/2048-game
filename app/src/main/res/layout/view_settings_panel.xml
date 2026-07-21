@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#80000000"
+    android:background="@drawable/bg_overlay_vignette"
     android:clickable="true"
     android:focusable="true">
 
@@ -11,147 +12,150 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="@drawable/round_button_bg"
-        android:backgroundTint="#F5F1E6"
+        android:backgroundTint="#FAF8EF"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="24dp"
+        android:elevation="20dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:text="ОПЦИИ"
-                android:textColor="#5D5850"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                android:text="SETTINGS"
+                android:textColor="#776E65"
+                android:textSize="28sp"
+                android:fontFamily="sans-serif-black" />
 
-            <ImageButton
-                android:id="@+id/btnClose"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardClose"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
                 android:layout_alignParentEnd="true"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:src="@android:drawable/ic_menu_close_clear_cancel" />
+                android:layout_centerVertical="true"
+                app:cardBackgroundColor="#8F7A66"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp">
+                <ImageButton
+                    android:id="@+id/btnClose"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_close_button"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@android:drawable/ic_menu_close_clear_cancel"
+                    app:tint="#FAF8EF" />
+            </androidx.cardview.widget.CardView>
         </RelativeLayout>
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginVertical="16dp"
-            android:background="#E0DCD1" />
+            android:layout_height="2.5dp"
+            android:layout_marginBottom="24dp"
+            android:background="#EDE0C8" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:paddingBottom="12dp">
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="ЗВУК"
-                android:textColor="#5D5850"
-                android:textStyle="bold" />
+            android:orientation="vertical">
 
-            <androidx.appcompat.widget.SwitchCompat
-                android:id="@+id/switch_sound"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:paddingBottom="12dp">
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="ТЁМНЫЙ РЕЖИМ"
-                android:textColor="#5D5850"
-                android:textStyle="bold" />
-
-            <androidx.appcompat.widget.SwitchCompat
-                android:id="@+id/switch_dark_mode"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-                <TextView
+            <LinearLayout android:layout_width="match_parent" android:layout_height="60dp" android:gravity="center_vertical">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                    android:text="SOUND" android:textColor="#776E65" android:textSize="18sp" android:textStyle="bold" />
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_sound"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ОБЛАЧНОЕ РЕЗЕРВНОЕ"
-                    android:textColor="#5D5850"
-                    android:textSize="12sp"
-                    android:textStyle="bold" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Сохраните свои результаты в облаке."
-                    android:textSize="10sp" />
+                    android:thumb="@drawable/switch_thumb_sound"
+                    app:track="@drawable/switch_track_custom"
+                    app:switchMinWidth="70dp"
+                    android:splitTrack="false" />
             </LinearLayout>
 
-            <androidx.appcompat.widget.SwitchCompat
-                android:id="@+id/switch_cloud"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="60dp" android:gravity="center_vertical">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                    android:text="DARK MODE" android:textColor="#776E65" android:textSize="18sp" android:textStyle="bold" />
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_dark_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:thumb="@drawable/switch_thumb_theme"
+                    app:track="@drawable/switch_track_custom"
+                    app:switchMinWidth="70dp" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="10dp" android:gravity="center_vertical">
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="CLOUD SAVES" android:textColor="#776E65" android:textSize="16sp" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Sync progress across devices" android:textColor="#B1A394" android:textSize="11sp" />
+                </LinearLayout>
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_cloud"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:thumb="@drawable/switch_thumb_cloud"
+                    app:track="@drawable/switch_track_custom"
+                    app:switchMinWidth="70dp" />
+            </LinearLayout>
         </LinearLayout>
 
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="28dp"
             android:columnCount="2">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_tutorial"
                 android:layout_width="0dp"
                 android:layout_columnWeight="1"
-                android:layout_margin="4dp"
-                android:backgroundTint="#F2A154"
-                android:text="УЧЕБНИК"
-                android:textColor="#FFFFFF" />
+                android:layout_margin="5dp"
+                android:background="@drawable/round_button_bg"
+                android:backgroundTint="#8F7A66"
+                android:text="HOW TO PLAY"
+                android:textColor="#FAF8EF"
+                android:textStyle="bold"
+                android:paddingVertical="14dp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_achievements"
                 android:layout_width="0dp"
                 android:layout_columnWeight="1"
-                android:layout_margin="4dp"
-                android:backgroundTint="#F2A154"
-                android:text="ДОСТИЖЕНИЯ"
-                android:textColor="#FFFFFF" />
+                android:layout_margin="5dp"
+                android:background="@drawable/round_button_bg"
+                android:backgroundTint="#8F7A66"
+                android:text="AWARDS"
+                android:textColor="#FAF8EF"
+                android:textStyle="bold" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_privacy"
                 android:layout_width="0dp"
                 android:layout_columnWeight="1"
-                android:layout_margin="4dp"
-                android:backgroundTint="#F2A154"
-                android:text="ПРИВАТНОСТЬ"
-                android:textColor="#FFFFFF" />
+                android:layout_margin="5dp"
+                android:background="@drawable/round_button_bg"
+                android:backgroundTint="#B1A394"
+                android:text="PRIVACY"
+                android:textColor="#FAF8EF"
+                android:textStyle="bold" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_rate"
                 android:layout_width="0dp"
                 android:layout_columnWeight="1"
-                android:layout_margin="4dp"
-                android:backgroundTint="#F2A154"
-                android:text="ОЦЕНИТЕ НАС!"
-                android:textColor="#FFFFFF" />
+                android:layout_margin="5dp"
+                android:background="@drawable/round_button_bg"
+                android:backgroundTint="#EDC22E"
+                android:text="RATE APP"
+                android:textColor="#FAF8EF"
+                android:textStyle="bold"
+                android:elevation="6dp" />
         </GridLayout>
     </LinearLayout>
 </FrameLayout>

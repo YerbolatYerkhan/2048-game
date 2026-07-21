@@ -1,50 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background_dark">#111111</color>
     <color name="background_light">#F6F1E9</color>
-    <color name="text_white">#F9F6F2</color>
-    <color name="text_black">#776e65</color>
-    <color name="text_brown">#d6cdc4</color>
-    <color name="background">#7E6C20</color>
-    <color name="text_dark_white">#FFFFFF</color>
-    <color name="text_light_black">#776e65</color>
-
-    <!-- GAME -->
-    <color name="my_dark_primary">#000000</color>
-    <color name="game_text_white">#F9F6F2</color>
-    <color name="game_text_black">#776e65</color>
-    <color name="game_text_brown">#d6cdc4</color>
-
     <color name="background_light_main">#D6CDC4</color>
+    <color name="background_dark">#111111</color>
 
-    <!-- Start screen (LIGHT) -->
-    <color name="start_bg_light">#F3EDE4</color>
-    <color name="title_color_light">#5A4B3C</color>
+    <color name="background_dark_main">#D6CDC4</color>
+    <color name="start_bg_dark">#F3EDE4</color>
+    <color name="btn_bg_dark">#D8C9B6</color>
+
+    <color name="text_dark">#F9F6F2</color>
+    <color name="text_light">#FFFFFF</color>
+    <color name="text_white">#F9F6F2</color>
+    <color name="text_black">#776E65</color>
+    <color name="text_brown">#D6CDC4</color>
+    <color name="text_primary">#4A403A</color>
+    <color name="text_secondary">#6C6159</color>
+    <color name="text_dark_white">#FFFFFF</color>
+
+
+    <color name="bg_creamy">#FDF8F3</color>
+    <color name="text_muted">#A69483</color>
+    <color name="accent_yellow">#FFD54F</color>
 
     <color name="btn_bg_light">#D8C9B6</color>
     <color name="btn_text_light">#3B3027</color>
+    <color name="btn_surface">#F7F3EF</color>
+    <color name="btn_pressed">#E6E0DA</color>
+    <color name="start_bg_light">#F3EDE4</color>
+    <color name="title_color_light">#5A4B3C</color>
     <color name="my_card_bg">#101010</color>
+    <color name="glass_bg">#F2EEE9</color>
+    <color name="shadow_dark">#C8C0B8</color>
+    <color name="shadow_light">#FFFFFF</color>
 
-    <!-- Theme system -->
-    <color name="color_primary_light">#6200EE</color>
-    <color name="color_secondary_light">#03DAC5</color>
-
-
-        <!-- Soft Glass Background -->
-        <color name="glass_bg">#F2EEE9</color>
-
-        <!-- Deep Neumorphism Shadows -->
-        <color name="shadow_dark">#C8C0B8</color>
-        <color name="shadow_light">#FFFFFF</color>
-
-        <!-- Text Colors -->
-        <color name="text_primary">#4A403A</color>
-        <color name="text_secondary">#6C6159</color>
-
-        <!-- Button Colors -->
-        <color name="btn_surface">#F7F3EF</color>
-        <color name="btn_pressed">#E6E0DA</color>
-
-
-
+    <color name="tile_empty">#CDC1B4</color>
+    <color name="tile_2">#EEE4DA</color>
+    <color name="tile_4">#EDE0C8</color>
+    <color name="tile_8">#F2B179</color>
+    <color name="tile_16">#F59563</color>
+    <color name="tile_32">#F67C5F</color>
+    <color name="tile_64">#F65E3B</color>
+    <color name="tile_128">#EDCF72</color>
+    <color name="tile_256">#EDCC61</color>
+    <color name="tile_512">#EDC850</color>
+    <color name="tile_1024">#EDC53F</color>
+    <color name="tile_2048">#EDC22E</color>
+    <color name="tile_4096">#3E3933</color>
+    <color name="tile_8192">#24221F</color>
+    <color name="tile_16384">#1B1A18</color>
+    <color name="tile_32768">#71B4D6</color>
+    <color name="tile_65536">#5DA2C4</color>
+    <color name="tile_131072">#4990B2</color>
+    <color name="tile_262144">#357EA0</color>
 </resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ereke.qadam2048.NestedScrollableHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvLeaderboard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:clipToPadding="false"
+            android:overScrollMode="never" />
+
+    </com.ereke.qadam2048.NestedScrollableHost>
+
+    <TextView
+        android:id="@+id/tvEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="No records yet.\nBe the first!"
+        android:textColor="#80FFFFFF"
+        android:textSize="16sp"
+        android:fontFamily="@fonts/montserrat_semibold"
+        android:gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>

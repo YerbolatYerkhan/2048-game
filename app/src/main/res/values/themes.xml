@@ -1,21 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Ereke2048" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/tile_2048</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">?attr/colorSurface</item>
+        <item name="colorSurface">?attr/colorSurface</item>
+        <item name="colorOutlineVariant">#1A000000</item> <item name="tabIndicatorColor">@color/tile_2048</item>
+        <item name="tabSelectedTextColor">@color/tile_2048</item>
+    </style>
 
-    <style name="Theme.Ereke2048" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">#BBADA0</item>
-        <item name="colorPrimaryDark">#776E65</item>
-        <item name="colorAccent">#EDC22E</item>
-        <item name="android:windowBackground">#FAF8EF</item>
+    <style name="TabTextStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@fonts/montserrat_bold</item>
+        <item name="android:textAllCaps">true</item>
     </style>
 
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">#FAF8EF</item>
-
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
-
-        <item name="windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
-
         <item name="postSplashScreenTheme">@style/Theme.Ereke2048</item>
     </style>
 
+    <style name="Theme.Leaderboard.Dialog" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.7</item> </style>
+
+    <style name="MyTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@fonts/montserrat_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

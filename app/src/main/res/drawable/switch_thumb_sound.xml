@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item><shape android:shape="rectangle"><solid android:color="#FFFFFF" /><corners android:radius="10dp" /></shape></item>
+            <item android:drawable="@drawable/ic_sound_on" android:top="7dp" android:bottom="7dp" android:left="7dp" android:right="7dp" android:tint="#776E65" />
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item><shape android:shape="rectangle"><solid android:color="#F2F0E9" /><corners android:radius="10dp" /></shape></item>
+            <item android:drawable="@drawable/ic_sound_off" android:top="7dp" android:bottom="7dp" android:left="7dp" android:right="7dp" android:tint="#BDBDBD" />
+        </layer-list>
+    </item>
+</selector>
