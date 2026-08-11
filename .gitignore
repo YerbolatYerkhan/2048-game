@@ -17,3 +17,5 @@ local.properties
 # Готовые сборки
 *.apk
 *.aab
+
+app/google-services.json
