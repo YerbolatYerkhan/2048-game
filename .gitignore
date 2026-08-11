@@ -1,21 +1,23 @@
+# Настройки IDE, Gradle и временные файлы
 *.iml
-.gradle
-/local.properties
+.gradle/
 /.idea/
 .DS_Store
-/build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+/local.properties
 
-# Ключи и секретные папки
+# Сборки и кэш
+/build
+
+# Секреты, ключи и личные папки
 *.jks
 *.keystore
 оч важ/
+app/google-services.json
 
 # Готовые сборки
 *.apk
 *.aab
-
-app/google-services.json

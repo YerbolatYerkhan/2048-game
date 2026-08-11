@@ -1,1 +1,13 @@
-/build
+# Папки сборки и кэш
+build/
+app/build/
+.gradle/
+.idea/
+
+# Ключи и конфиги Google Services
+app/google-services.json
+*.keystore
+*.jks
+
+# Локальные настройки окружения
+local.properties
