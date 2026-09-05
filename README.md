@@ -7,7 +7,6 @@ A modern take on the classic **2048 puzzle**, built natively for Android with Ja
 ![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Backend-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
 </div>
 
@@ -171,11 +170,11 @@ The application's privacy policy is available here:
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+Copyright © 2026 **Yerbolatuly Yerkhan**. All rights reserved.
 
-See the [LICENSE](LICENSE) file for details.
+The source code in this repository is publicly available for viewing and portfolio purposes only.
 
-This project is an independent Android implementation inspired by the original **2048** game created by Gabriele Cirulli.
+No permission is granted to copy, modify, redistribute, sublicense, sell, or publish this project or its source code without explicit permission from the author.
 
 ---
 
