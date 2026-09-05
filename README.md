@@ -25,18 +25,14 @@ The goal of the project was not only to recreate 2048, but also to explore Andro
 
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="screenshots/master-the-board.png" width="230" alt="2048 Gameplay">
-  &nbsp;&nbsp;
-  <img src="screenshots/master-the-board2.png" width="230" alt="2048 Light and Dark Themes">
-</p>
+## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/game-modes.png" width="190" alt="Game Modes">
-  &nbsp;
-  <img src="screenshots/leaderboard.png" width="190" alt="Global Leaderboard">
-  &nbsp;
-  <img src="screenshots/settings.png" width="190" alt="Game Settings">
+  <img src="screenshots/master-the-board.png" width="18%" alt="2048 Gameplay">
+  <img src="screenshots/master-the-board2.png" width="18%" alt="2048 Gameplay">
+  <img src="screenshots/game-modes.png" width="18%" alt="Game Modes">
+  <img src="screenshots/leaderboard.png" width="18%" alt="Global Leaderboard">
+  <img src="screenshots/settings.png" width="18%" alt="Game Settings">
 </p>
 
 ---
