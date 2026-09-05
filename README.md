@@ -25,8 +25,6 @@ The goal of the project was not only to recreate 2048, but also to explore Andro
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
-
 <p align="center">
   <img src="screenshots/master-the-board.png" width="18%" alt="2048 Gameplay">
   <img src="screenshots/master-the-board2.png" width="18%" alt="2048 Gameplay">
