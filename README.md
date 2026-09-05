@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎮 2easy — 2048 for Android
+# 🎮 2048 for Android
 
 A modern take on the classic **2048 puzzle**, built natively for Android with Java.
 
@@ -14,11 +14,11 @@ A modern take on the classic **2048 puzzle**, built natively for Android with Ja
 
 ## 📱 About
 
-**2easy** is a native Android implementation of the classic 2048 puzzle game, written in Java.
+**2048 for Android** is a native implementation of the classic 2048 puzzle game, written in Java.
 
 The project started as my first Android game and grew beyond the original 4×4 experience with additional game modes, global leaderboards, themes, power-ups, custom animations, and Firebase-powered online features.
 
-The goal of the project was not only to recreate 2048, but also to explore Android development, game logic, UI/UX, animations, cloud services, and publishing a complete mobile application.
+The goal of the project was not only to recreate 2048, but also to gain hands-on experience with Android development, game logic, UI/UX, animations, cloud services, and the process of building a complete mobile application.
 
 ---
 
@@ -182,6 +182,7 @@ No permission is granted to copy, modify, redistribute, sublicense, sell, or pub
 
 **Yerbolatuly Yerkhan**
 
+Developer: **2easy**  
 GitHub: [@YerbolatYerkhan](https://github.com/YerbolatYerkhan)
 
 ---
